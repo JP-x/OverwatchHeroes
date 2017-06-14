@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OverwatchHeroes.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,23 +9,18 @@ namespace OverwatchHeroes.Controllers
 {
     public class HomeController : Controller
     {
+        private HeroRepository HeroesRepo = null;
+        public HomeController()
+        {
+            //initialize heroes list
+            HeroesRepo = new HeroRepository();
+        }
+
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            //get hero list from repo
+            var Heroes = HeroesRepo.GetHeroes();
+            return View(Heroes);
         }
     }
 }

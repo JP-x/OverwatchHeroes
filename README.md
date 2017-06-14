@@ -1,8 +1,6 @@
 # OverwatchHeroes
 
 Website developed using:
-.NET Framework
-
 ASP.NET
-
+HTML,CSS,JS
 Materialize Framework
