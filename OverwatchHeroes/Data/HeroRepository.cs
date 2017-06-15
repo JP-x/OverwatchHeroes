@@ -37,6 +37,92 @@ namespace OverwatchHeroes.Data
             new Hero()
             {
                 // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Reinhardt", Role = "Support",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "BIOTIC RIFLE", AbilityID = 0, Description = "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots." },
+                    new Ability() {Name = "SLEEP DART", AbilityID = 1 , Description = "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."},
+                    new Ability() {Name = "BIOTIC GRENADE", AbilityID = 2 , Description = "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."},
+                    new Ability() {Name = "NANO BOOST", AbilityID = 3 , Description = "After Ana hits one of her allies with a combat boost, they deal more damage, and take less damage from enemies’ attacks."},
+                },
+                Difficulty = 3,
+                Hp = 200,
+                Armor = 0,
+                Shield = 0,
+                Summary = "Ana’s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her sidearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power."
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Soldier76", Role = "Support",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "BIOTIC RIFLE", AbilityID = 0, Description = "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots." },
+                    new Ability() {Name = "SLEEP DART", AbilityID = 1 , Description = "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."},
+                    new Ability() {Name = "BIOTIC GRENADE", AbilityID = 2 , Description = "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."},
+                    new Ability() {Name = "NANO BOOST", AbilityID = 3 , Description = "After Ana hits one of her allies with a combat boost, they deal more damage, and take less damage from enemies’ attacks."},
+                },
+                Difficulty = 3,
+                Hp = 200,
+                Armor = 0,
+                Shield = 0,
+                Summary = "Ana’s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her sidearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power."
+            },
+                                    new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Genji", Role = "Support",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "BIOTIC RIFLE", AbilityID = 0, Description = "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots." },
+                    new Ability() {Name = "SLEEP DART", AbilityID = 1 , Description = "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."},
+                    new Ability() {Name = "BIOTIC GRENADE", AbilityID = 2 , Description = "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."},
+                    new Ability() {Name = "NANO BOOST", AbilityID = 3 , Description = "After Ana hits one of her allies with a combat boost, they deal more damage, and take less damage from enemies’ attacks."},
+                },
+                Difficulty = 3,
+                Hp = 200,
+                Armor = 0,
+                Shield = 0,
+                Summary = "Ana’s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her sidearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power."
+            },
+                                                new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Zenyatta", Role = "Support",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "BIOTIC RIFLE", AbilityID = 0, Description = "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots." },
+                    new Ability() {Name = "SLEEP DART", AbilityID = 1 , Description = "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."},
+                    new Ability() {Name = "BIOTIC GRENADE", AbilityID = 2 , Description = "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."},
+                    new Ability() {Name = "NANO BOOST", AbilityID = 3 , Description = "After Ana hits one of her allies with a combat boost, they deal more damage, and take less damage from enemies’ attacks."},
+                },
+                Difficulty = 3,
+                Hp = 200,
+                Armor = 0,
+                Shield = 0,
+                Summary = "Ana’s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her sidearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power."
+            },
+                                                            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Reaper", Role = "Support",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "BIOTIC RIFLE", AbilityID = 0, Description = "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots." },
+                    new Ability() {Name = "SLEEP DART", AbilityID = 1 , Description = "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."},
+                    new Ability() {Name = "BIOTIC GRENADE", AbilityID = 2 , Description = "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."},
+                    new Ability() {Name = "NANO BOOST", AbilityID = 3 , Description = "After Ana hits one of her allies with a combat boost, they deal more damage, and take less damage from enemies’ attacks."},
+                },
+                Difficulty = 3,
+                Hp = 200,
+                Armor = 0,
+                Shield = 0,
+                Summary = "Ana’s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her sidearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power."
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
                 Name = "Widowmaker", Role = "Defense",
                 Skills = new Ability[]
                 {

@@ -16,11 +16,14 @@
             <nav>
                 <div class="nav-wrapper">
                     <!--.navbar-material .nav-wrapper .brand-logo img {-->
-                    <a href="#" class="brand-logo center"><img src="~/images/owlogo.png"></a>
-                    <ul id="nav-mobile" class="left hide-on-med-and-down">
-                        <li>Home</li>
-                        <li>Repository</li>
-                    </ul>
+                    <div class="row">
+                        <ul id="nav-mobile" class="valign-wrapper">
+                        <li class="col m5 s5 center"><a href="#">Home </a></li>
+                        <li class="col m2 s2 center"><img class="responsive-img valign-wrapper" src="~/images/owlogo.png"></li>
+                        <!-- Add alert to button with id "Repo" -->
+                        <li class="col m5 s5 center"><a href="https://github.com/JP-x/OverwatchHeroes">Repository </a> </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -29,6 +32,7 @@
             <!--Import jQuery before materialize.js-->
             <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
             <script type="text/javascript" src="js/materialize.js"></script>
+            <script type="text/javascript" src="js/Init.js"></script>
 </body>
   </html>
         
