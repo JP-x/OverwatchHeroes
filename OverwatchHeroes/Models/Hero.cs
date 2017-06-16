@@ -17,6 +17,7 @@ namespace OverwatchHeroes.Models
         public int Shield { get; set; }
         public string IconName { get{ return Name.ToLower() + "/" + Name.ToLower() + "_icon.png"; } }//read-only
         public string ArtName { get { return Name.ToLower() + "/" + Name.ToLower() + "_art.png"; } }//read-only
+        public string RoleName { get { return "roles/" + Role.ToLower() + "_icon.png"; } }//read-only
         public string GetSkillName(int index)//given an index return the filename of the associated skill
         { return (index >= 0 && index < Skills.Length) ? Name.ToLower() + index + ".png" : Name.ToLower() + "0.png"; }
 

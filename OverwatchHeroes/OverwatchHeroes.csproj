@@ -189,6 +189,7 @@
     <Content Include="images\genji\genji5.png" />
     <Content Include="images\genji\genji_art.png" />
     <Content Include="images\genji\genji_icon.png" />
+    <Content Include="images\github_white.png" />
     <Content Include="images\hanzo\hanzo0.png" />
     <Content Include="images\hanzo\hanzo1.png" />
     <Content Include="images\hanzo\hanzo2.png" />
@@ -203,6 +204,7 @@
     <Content Include="images\junkrat\junkrat4.png" />
     <Content Include="images\junkrat\junkrat_art.png" />
     <Content Include="images\junkrat\junkrat_icon.png" />
+    <Content Include="images\linkedin_white.png" />
     <Content Include="images\lucio\lucio0.png" />
     <Content Include="images\lucio\lucio1.png" />
     <Content Include="images\lucio\lucio2.png" />
@@ -217,7 +219,7 @@
     <Content Include="images\mccree\mccree3.png" />
     <Content Include="images\mccree\mccree4.png" />
     <Content Include="images\mccree\mccree_icon.png" />
-    <Content Include="images\mccree\mcree_art.png" />
+    <Content Include="images\mccree\mccree_art.png" />
     <Content Include="images\mei\mei0.png" />
     <Content Include="images\mei\mei1.png" />
     <Content Include="images\mei\mei2.png" />

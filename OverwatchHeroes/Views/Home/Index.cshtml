@@ -12,19 +12,31 @@
         <a class="waves-effect waves-light btn-large col s6 m3"><img src="~/images/roles/tank_icon.png">Tank</a>
         <a class="waves-effect waves-light btn-large col s6 m3"><img src="~/images/roles/support_icon.png">Support</a>
     </div>
-
-    @{ var hero_counter = 0; var nth3rd = 2;}
+    
+<div class="container">
+    @{ var hero_counter = 0; var nth3rd = 2; var end = Model.Length-1;}
     @foreach (var hero in Model)
     {
         if (hero_counter % 3 == 0)
         {
             @:<div class="row center-align">
         }
-        <div class="col s4 m4 l4 container">
-            <img src="images/@hero.IconName" alt="@hero.Name" class="circle hero-image">
-            <div class="hero-image-text OWtext_m center-align">@hero.Name</div>
+
+        <div class="col s4 m4">
+            <a href="#">
+                <div class="card valign-wrapper">
+                
+                    <img src="images/@hero.IconName" class="hero-image circle">
+                    <img src="~/images/@hero.RoleName" class="role-img">
+                    <br />
+                    <div class="card-content">
+                        <span class="OWtext hide-on-small-only change-text-on-med-only change-text-on-large-only">@hero.Name</span>
+                    </div>
+                </div>
+            </a>
         </div>
-        if (hero_counter == nth3rd)
+
+        if (hero_counter == nth3rd || hero_counter >= end)
         {
             nth3rd = nth3rd + 3;
             @:</div>
@@ -33,3 +45,4 @@
         hero_counter++;
     }
 
+</div>

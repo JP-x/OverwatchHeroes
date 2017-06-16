@@ -803,8 +803,8 @@ ul.staggered-list li {
 }
 
 .page-footer {
-  padding-top: 20px;
-  background-color: #ee6e73;
+    padding-top: 20px;
+    background-color: #584F4A;
 }
 
 .page-footer .footer-copyright {
@@ -818,7 +818,7 @@ ul.staggered-list li {
           align-items: center;
   padding: 10px 0px;
   color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
+  background-color: rgba(51, 51, 51, 0.40);
 }
 
 table, th, td {
@@ -1286,9 +1286,10 @@ nav ul a span.badge {
     height:inherit;
 }
 .container {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    
 }
 
 @media only screen and (min-width: 601px) {
@@ -2648,7 +2649,12 @@ small {
     margin: 0.5rem 0 1rem 0;
     background-color: #2F2526;
     transition: box-shadow .25s;
+    transition: background .25s;
     border-radius: 2px;
+}
+
+.card:hover {
+    background-color: #218ffe;
 }
 
 .card .card-title {
@@ -2756,14 +2762,20 @@ small {
 }
 
 .card .card-image img {
-  display: block;
-  border-radius: 2px 2px 0 0;
-  position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 100%;
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    transition: background .25s;
+    background: #2F2526;
+}
+
+.card .card-image img:hover {
+    background: #405275;
 }
 
 .card .card-image .card-title {
@@ -3141,24 +3153,24 @@ small {
     }
 
 .btn-floating {
-  display: inline-block;
-  color: #fff;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  padding: 0;
-  background-color: #26a69a;
-  border-radius: 50%;
-  transition: .3s;
-  cursor: pointer;
-  vertical-align: middle;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    background-color: #FAA02E;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    vertical-align: middle;
 }
 
 .btn-floating:hover {
-  background-color: #26a69a;
+    background-color: #FCBD49;
 }
 
 .btn-floating:before {
@@ -6928,108 +6940,94 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .OWtext {
     font-family: 'BigNoodleTitling', sans-serif !important;
+    color: white;
 }
 
 .OWtext_s {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: 'BigNoodleTitling', sans-serif !important;
+    color: white;
 }
 
 .OWtext_m {
     font-size: 2rem;
     font-family: 'BigNoodleTitling', sans-serif !important;
+    color: white;
 }
 
 .OWtext_l {
     font-size: 3rem;
     font-family: 'BigNoodleTitling', sans-serif !important;
+    color:white;
 }
 
+.hero-container {
+    border: 4px solid #584F4A;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    -webkit-transition: text-shadow font-size border-color transform .2s ease-in-out;
+    font-family: 'BigNoodleTitling', sans-serif !important;
+}
+
+/*Allow Role Icon to be displayed on top*/
 .hero-image {
     position: relative;
     border: 4px solid #584F4A;
-    -webkit-transition: border-color 0.5s ease;
+    background: #405275;
+    -webkit-transition: all 0.2s ease-in-out;
 }
 
 .hero-image:hover {
-    border-color: #218ffe;
+    background: #218ffe;
+    border: 4px solid #FCBD49;
 }
 
 .hero-image-text {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    -webkit-transition: text-shadow 0.5s ease;
     font-family: 'BigNoodleTitling', sans-serif !important;
 }
 
+ .hero-image-text:hover {
+        text-shadow: -1px -1px 0 #218ffe, 1px -1px 0 #218ffe, -1px 1px 0 #218ffe, 1px 1px 0 #218ffe;
+ }
+
+.hero-container:hover {
+    border-color: #218ffe;
+    transform: scale(1.25, 1.25);
+    text-shadow: -1px -1px 0 #218ffe, 1px -1px 0 #218ffe, -1px 1px 0 #218ffe, 1px 1px 0 #218ffe;
+    font-size: 3rem;
+}
+/* Absolute position lets icon be displayed on top of hero-image*/
+.role-img{
+    height:35px !important;
+    bottom:0px;
+    position:absolute;
+    z-index:1;
+}
 
 /*********************
-  HERO SELECT IMAGE SIZE CHANGE
+  HERO SELECT FONT SIZE CHANGE
 **********************/
 /*small screen and down*/
 @media only screen and (max-width: 600px) {
-    .hide-on-small-only, .hide-on-small-and-down {
-        display: none !important;
-    }
-}
-/*med screen and down*/
-@media only screen and (max-width: 992px) {
-    .hide-on-med-and-down {
-        display: none !important;
-    }
-}
-/*med screen and up*/
-@media only screen and (min-width: 601px) {
-    .hide-on-med-and-up {
-        display: none !important;
+    .change-text-on-small-only {
+        font-size: 1rem;
     }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-    .hide-on-med-only {
-        display: none !important;
+    .change-text-on-med-only {
+        font-size: 1.25rem;
+        
     }
 }
 
 @media only screen and (min-width: 993px) {
-    .hide-on-large-only {
-        display: none !important;
+    .change-text-on-large-only {
+        font-size: 2rem;
     }
 }
 
-@media only screen and (min-width: 993px) {
-    .show-on-large {
-        display: block !important;
-    }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 992px) {
-    .show-on-medium {
-        display: block !important;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .show-on-small {
-        display: block !important;
-    }
-}
-
-@media only screen and (min-width: 601px) {
-    .show-on-medium-and-up {
-        display: block !important;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .show-on-medium-and-down {
-        display: block !important;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .center-on-small-only {
-        text-align: center;
-    }
-}
 
 .btn-large img{
     height:26px;
