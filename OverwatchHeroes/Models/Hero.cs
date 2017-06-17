@@ -19,7 +19,7 @@ namespace OverwatchHeroes.Models
         public string ArtName { get { return Name.ToLower() + "/" + Name.ToLower() + "_art.png"; } }//read-only
         public string RoleName { get { return "roles/" + Role.ToLower() + "_icon.png"; } }//read-only
         public string GetSkillName(int index)//given an index return the filename of the associated skill
-        { return (index >= 0 && index < Skills.Length) ? Name.ToLower() + index + ".png" : Name.ToLower() + "0.png"; }
+        { return (index >= 0 && index < Skills.Length) ? Name.ToLower() + "/" + Name.ToLower() + index + ".png" : Name.ToLower() + "/" + Name.ToLower() + "0.png"; }
 
     }
 }

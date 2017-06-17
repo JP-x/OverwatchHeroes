@@ -6962,6 +6962,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     color:white;
 }
 
+.hero_name{
+    font-size:5rem;
+}
+
 .hero-container {
     border: 4px solid #584F4A;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -7011,6 +7015,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     display:block;
     margin:auto;
 }
+
+.skill-image {
+    display: block;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: #060606;
+    border: 5px solid #584F4A;
+    height: 100px !important;
+    width: 100px !important;
+}
 /*********************
   HERO SELECT FONT SIZE CHANGE
 **********************/
@@ -7036,6 +7050,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
             background: #218ffe;
             border:2px solid #FCBD49;
         }
+
+        .change-parallaximg-on-small-only{
+            bottom:-45% !important;
+        }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
@@ -7044,14 +7062,28 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
         
     }
 
+    .change-parallaximg-on-medium-only {
+        bottom: -35% !important;
+    }
 }
 
 @media only screen and (min-width: 993px) {
     .change-text-on-large-only {
         font-size: 2rem;
     }
+
+    .change-parallaximg-on-large-only{
+        bottom:-125% !important;
+    }
 }
 
+.parallax-img {
+    bottom:-125% ;
+}
+
+.parallax-img:focus{
+   border:5px solid red;
+}
 
 
 .btn-large img{
@@ -7062,4 +7094,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .bodystyle {
     background-color: #060606;
+}
+
+.skill-section {
+    background-color: #405275;
 }

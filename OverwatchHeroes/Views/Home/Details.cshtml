@@ -1,0 +1,33 @@
+﻿<!-- Include Hero Collection-->
+@model OverwatchHeroes.Models.Hero[]
+
+@{
+    ViewBag.Title = "Detail";
+}
+
+@{var exHero = Model.ElementAt(6);}
+<div class="section"></div>
+<div class="parallax-container">
+    <div class="parallax"><img src="~/images/@exHero.ArtName" class="parallax-img change-parallaximg-on-small-only change-parallaximg-on-medium-only change-parallaximg-on-large-only"></div>
+</div>
+
+<div class="section">
+    <div class="row">
+        <div class="col s12 m12 center"><span class="OWtext_l hero_name">@exHero.Name</span></div>
+    </div>
+</div>
+
+<div class="section skill-section">
+    <div class="row">
+        @foreach (var skill in exHero.Skills)
+        {
+            <div class="col s4 m4 center-align">
+                <div class="card small">
+                <div class="card-image"><img src="~/images/@exHero.GetSkillName(skill.AbilityID)" class="center skill-image change-heroimg-on-small-only" /></div>
+                <div class="OWtext_m change-text-on-med-only change-text-on-large-only card-title">@skill.Name</div>
+                <div class="card-content">@skill.Description</div>
+            </div>
+                </div>
+        }
+    </div>
+</div>

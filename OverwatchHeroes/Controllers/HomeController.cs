@@ -26,8 +26,8 @@ namespace OverwatchHeroes.Controllers
         //pass in a hero to display all relevant information
         public ActionResult Details()
         {
-            
-            return View();
+            var Heroes = HeroesRepo.GetHeroes();
+            return View(Heroes);
         }
     }
 }
