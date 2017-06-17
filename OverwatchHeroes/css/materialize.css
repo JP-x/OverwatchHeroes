@@ -2646,6 +2646,7 @@ small {
 
 .card {
     position: relative;
+    border: 2px ridge #584F4A;
     margin: 0.5rem 0 1rem 0;
     background-color: #2F2526;
     transition: box-shadow .25s;
@@ -7005,6 +7006,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     z-index:1;
 }
 
+.logo-img{
+    max-height:56px;
+    display:block;
+    margin:auto;
+}
 /*********************
   HERO SELECT FONT SIZE CHANGE
 **********************/
@@ -7013,6 +7019,23 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     .change-text-on-small-only {
         font-size: 1rem;
     }
+
+    .change-navtext-on-small-only {
+        font-size: 1.5rem;
+    }
+
+    .change-heroimg-on-small-only {
+        width: 100%;
+        align-content: center;
+        border: 2px solid #584F4A;
+        background: #405275;
+        -webkit-transition: all 0.2s ease-in-out;
+    }
+
+        .change-heroimg-on-small-only:hover {
+            background: #218ffe;
+            border:2px solid #FCBD49;
+        }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
@@ -7020,6 +7043,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
         font-size: 1.25rem;
         
     }
+
 }
 
 @media only screen and (min-width: 993px) {
@@ -7029,9 +7053,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 
+
 .btn-large img{
     height:26px;
     vertical-align:text-bottom;
     padding-right:10px;
 }
 
+.bodystyle {
+    background-color: #060606;
+}
