@@ -7047,9 +7047,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
             border:2px solid #FCBD49;
         }
 
-        .change-parallaximg-on-small-only{
+        /*.change-parallaximg-on-small-only{
             bottom:-45% !important;
-        }
+        }*/
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
@@ -7058,9 +7058,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
         
     }
 
-    .change-parallaximg-on-medium-only {
+    /*.change-parallaximg-on-medium-only {
         bottom: -35% !important;
-    }
+    }*/
 }
 
 @media only screen and (min-width: 993px) {
@@ -7068,14 +7068,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
         font-size: 2rem;
     }
 
-    .change-parallaximg-on-large-only{
+    /*.change-parallaximg-on-large-only{
         bottom:-125% !important;
-    }
+    }*/
 }
 
-.parallax-img {
+/*.parallax-img {
     bottom:-125% ;
-}
+}*/
 
 .parallax-img:focus{
    border:5px solid red;
