@@ -231,14 +231,14 @@ private static Hero[] HeroRepo = new Hero[]
                 Skills = new Ability[]
                 {
                     new Ability() {Name = "WIDOW’S KISS", AbilityID = 0, Description = "Widowmaker’s versatile sniper rifle is ideal for scope-aimed shots at distant targets. Should targets close to medium range, the rifle can also be fired in fully-automatic mode." },
-                    new Ability() {Name = "GRAPPLING HOOK", AbilityID = 1 , Description = "Widowmaker launches a grappling hook towards the location she’s aiming at – when the hook connects with a scalable surface, she’s quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets."},
-                    new Ability() {Name = "VENOM MINE", AbilityID = 2 , Description = "Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mine’s motion trigger, it explodes, delivering poison gas to any enemies in the vicinity."},
-                    new Ability() {Name = "INFRA-SIGHT", AbilityID = 3 , Description = "Widowmaker’s recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies."},
+                    new Ability() {Name = "GRAPPLING HOOK", AbilityID = 2 , Description = "Widowmaker launches a grappling hook towards the location she’s aiming at – when the hook connects with a scalable surface, she’s quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets."},
+                    new Ability() {Name = "VENOM MINE", AbilityID = 3 , Description = "Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mine’s motion trigger, it explodes, delivering poison gas to any enemies in the vicinity."},
+                    new Ability() {Name = "INFRA-SIGHT", AbilityID = 4 , Description = "Widowmaker’s recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies."},
                 },
                 Difficulty = 2,
                 Hp = 200,
-                Armor = 100,
-                Shield=150,
+                Armor = 0,
+                Shield=0,
                 Summary = "Widowmaker equips herself with whatever it takes to eliminate her targets, including mines that dispense poisonous gas, a visor that grants her squad infra-sight, and a powerful sniper rifle that can fire in fully-automatic mode."
             }
         };
