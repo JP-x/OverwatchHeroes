@@ -7025,6 +7025,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     height: 100px !important;
     width: 100px !important;
 }
+
+.material-icon-valign{
+    display:inline-flex;
+    vertical-align:top !important;
+}
 /*********************
   HERO SELECT FONT SIZE CHANGE
 **********************/
@@ -7098,4 +7103,59 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .skill-section {
     background-color: #405275;
+}
+
+.info-section {
+    background-color: #405275;
+}
+
+.info-text{
+    font-family:'Roboto';
+}
+
+meter {
+   /*-webkit-appearance: none;*/
+   height:30px;
+   width:inherit
+}
+    /* //Crucial, this will disable the default styling in Webkit browsers*/
+meter::-webkit-meter-bar {
+    background: #FFF;
+    border: 1px solid #CCC;
+}
+
+meter::-webkit-meter-optimum-value{
+    background: #FF0;
+}
+
+.health-meter{
+    background:white;
+}
+
+.health-meter::-webkit-meter-optimum-value{
+    background:#F00;
+}
+
+.health-meter::-webkit-meter-suboptimal-value {
+    background: #F00;
+}
+
+.health-meter::-webkit-meter-even-less-good-value {
+    background: #F00;
+}
+
+.armor-meter {
+    background: white;
+}
+
+.armor-meter::-webkit-meter-optimum-value {
+        background: #FCBD49;
+}
+
+.armor-meter::-webkit-meter-suboptimal-value {
+    background: #FCBD49;
+}
+
+.armor-meter::-webkit-meter-even-less-good-value {
+    background: #FCBD49;
 }

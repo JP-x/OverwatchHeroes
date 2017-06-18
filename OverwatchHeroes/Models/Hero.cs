@@ -15,6 +15,7 @@ namespace OverwatchHeroes.Models
         public int Hp { get; set; }
         public int Armor { get; set; }
         public int Shield { get; set; }
+        public int GetFullHP { get { return Hp + Armor + Shield; } }
         public string IconName { get{ return Name.ToLower() + "/" + Name.ToLower() + "_icon.png"; } }//read-only
         public string ArtName { get { return Name.ToLower() + "/" + Name.ToLower() + "_art.png"; } }//read-only
         public string RoleName { get { return "roles/" + Role.ToLower() + "_icon.png"; } }//read-only

@@ -180,7 +180,7 @@ private static Hero[] HeroRepo = new Hero[]
                     new Ability() {Name = "Self-Repair", AbilityID = 4, Description = "Bastion restores its health; it cannot fire weapons while the repair process is in effect." },
                     new Ability() {Name = "Configuration: Tank", AbilityID = 5, Description = "In Tank mode, Bastion extends wheeled treads and a powerful long-range cannon. The cannon’s explosive shells demolish targets in a wide blast radius, but Bastion can only remain in this mode for a limited time." }
                 },
-                Difficulty = 0,
+                Difficulty = 1,
                 Hp = 200,
                 Armor = 100,
                 Shield = 0,
@@ -200,7 +200,7 @@ private static Hero[] HeroRepo = new Hero[]
                     new Ability() {Name = "Light Gun", AbilityID = 4, Description = "While outside of her mech, D.Va can continue the fight with a mid-range automatic blaster." },
                     new Ability() {Name = "Call Mech", AbilityID = 5, Description = "If her armored battle suit is destroyed, D.Va can call down a fresh mech and return to the fray." }
                 },
-                Difficulty = 0,
+                Difficulty = 2,
                 Hp = 400,
                 Armor = 200,
                 Shield = 0,
