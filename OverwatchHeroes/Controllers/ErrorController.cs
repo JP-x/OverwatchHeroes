@@ -6,12 +6,15 @@ using System.Web.Mvc;
 
 namespace OverwatchHeroes.Controllers
 {
-    public class PageNotFoundController : Controller
+    public class ErrorController : Controller
     {
         // GET: PageNotFound
+        [HandleError]
         public ActionResult PageNotFound()
         {
-            return View();
+            Response.StatusCode = 404;
+            Response.TrySkipIisCustomErrors = true;
+            return View("PageNotFound");
         }
     }
 }

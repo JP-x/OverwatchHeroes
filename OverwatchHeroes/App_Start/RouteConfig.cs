@@ -15,16 +15,18 @@ namespace OverwatchHeroes
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
+                url: "Home/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
 
             /* */
             routes.MapRoute(
-            name:  "404-PageNotFound",
-            url: "{*url}",
-            defaults: new { controller = "PageNotFound", action = "PageNotFound" }
+                name: "404-PageNotFound",
+                url: "{*url}",
+                defaults: new { controller = "Error", action = "PageNotFound", id = UrlParameter.Optional }
             );
+
+            /* */
         }
     }
 }
