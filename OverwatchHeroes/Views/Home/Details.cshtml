@@ -1,22 +1,23 @@
 ﻿<!-- Include Hero Collection-->
-@model OverwatchHeroes.Models.Hero[]
+@model OverwatchHeroes.Models.Hero
 
 @{
     ViewBag.Title = "Detail";
 }
 
-@{var exHero = Model.ElementAt(2);}
+@{
+    //default character value
+    var exHero = Model;
+}
+
+
 <div class="section"></div>
 <div class="parallax-container">
     <div class="parallax"><img src="~/images/@exHero.ArtName" class="parallax-img change-parallaximg-on-small-only change-parallaximg-on-medium-only change-parallaximg-on-large-only"></div>
 </div>
 
 <div class="section">
-    <!--
-    <div class="row center">
-        <img src="~/images/@exHero.IconName" class="hero-image circle change-heroimg-on-small-only">
-    </div>
-    -->
+
     <div class="row">
         <div class="col s12 m12 center"><span class="OWtext_l hero_name">@exHero.Name</span></div>
     </div>

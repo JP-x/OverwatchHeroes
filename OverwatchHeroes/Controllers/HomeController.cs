@@ -1,4 +1,5 @@
 ﻿using OverwatchHeroes.Data;
+using OverwatchHeroes.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,10 +25,30 @@ namespace OverwatchHeroes.Controllers
         }
 
         //pass in a hero to display all relevant information
-        public ActionResult Details()
+        public ActionResult Details(string name)
         {
             var Heroes = HeroesRepo.GetHeroes();
-            return View(Heroes);
+            Hero herotodisplay = null;
+            foreach(var hero in Heroes)
+            {
+                if(name == hero.Name)
+                {
+                    //match found break out of loop
+                    herotodisplay = hero;
+                    break;
+                }
+                else
+                {
+                    //prevent invalid heroes from being passed in
+                    //default to genji
+                    if(hero.Name == "Genji")
+                    {
+                        herotodisplay = hero;
+                    }
+                }
+            }
+            
+            return View(herotodisplay);
         }
     }
 }

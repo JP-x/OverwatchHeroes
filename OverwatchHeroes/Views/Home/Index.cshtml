@@ -23,7 +23,7 @@
         }
 
         <div class="col s4 m4">
-            <a href="@Url.Action()">
+            <a href="@Url.Action("Details","Home", new { Name = hero.Name })">
                 <div class="card valign-wrapper">
                 
                     <img src="~/images/@hero.IconName" class="hero-image change-heroimg-on-small-only circle">
