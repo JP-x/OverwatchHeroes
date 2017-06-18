@@ -691,12 +691,13 @@ video.responsive-video {
 }
 
 .parallax {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
+    background-color: #584F4A;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .parallax img {
@@ -7016,16 +7017,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin:auto;
 }
 
-.skill-image {
-    display: block;
-    border-radius: 50%;
-    box-sizing: border-box;
-    background-color: #060606;
-    border: 5px solid #584F4A;
-    height: 100px !important;
-    width: 100px !important;
-}
-
 .material-icon-valign{
     display:inline-flex;
     vertical-align:top !important;
@@ -7101,8 +7092,23 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     background-color: #060606;
 }
 
+.skill-image {
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: #060606;
+    border: 5px solid #584F4A;
+    height: 100px !important;
+    width: 100px !important;
+    position:center;
+}
+
+
 .skill-section {
     background-color: #405275;
+}
+
+.skill-text {
+    text-align:justify;
 }
 
 .info-section {
@@ -7112,6 +7118,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .info-text{
     font-family:'Roboto';
 }
+
 
 meter {
    /*-webkit-appearance: none;*/
