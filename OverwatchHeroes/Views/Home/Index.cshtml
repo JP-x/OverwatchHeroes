@@ -6,25 +6,26 @@
 }
     <br />
     <div class="row">
-        <a class="waves-effect waves-light btn-large col s12 m12">All</a>
-        <a class="waves-effect waves-light btn-large col s6 m3"><img src="~/images/roles/offense_icon.png">Attack</a>
-        <a class="waves-effect waves-light btn-large col s6 m3"><img src="~/images/roles/defense_icon.png">Defense</a>
-        <a class="waves-effect waves-light btn-large col s6 m3"><img src="~/images/roles/tank_icon.png">Tank</a>
-        <a class="waves-effect waves-light btn-large col s6 m3"><img src="~/images/roles/support_icon.png">Support</a>
+        <a id="Offense" class="waves-effect waves-light btn-large col s6 m3" onclick='FilterHeroes("Offense")' ><img src="~/images/roles/offense_icon.png">Offense</a>
+        <a id="Defense" class="waves-effect waves-light btn-large col s6 m3" onclick='FilterHeroes("Defense")' ><img src="~/images/roles/defense_icon.png">Defense</a>
+        <a id="Tank" class="waves-effect waves-light btn-large col s6 m3" onclick='FilterHeroes("Tank")'><img src="~/images/roles/tank_icon.png">Tank</a>
+        <a id="Support" class="waves-effect waves-light btn-large col s6 m3" onclick='FilterHeroes("Support")'><img src="~/images/roles/support_icon.png">Support</a>
     </div>
     
 <div class="container">
     @{ var hero_counter = 0; var nth3rd = 2; var end = Model.Length-1;}
     @foreach (var hero in Model)
     {
+        <!--INSERT DIV ROW EVERY 3rd HERO-->
         if (hero_counter % 3 == 0)
         {
             @:<div class="row center-align">
         }
 
+        <!--HERO CARD START-->
         <div class="col s4 m4">
             <a href="@Url.Action("Details","Home", new { Name = hero.Name })">
-                <div class="card valign-wrapper">
+                <div class="card valign-wrapper @hero.Role">
                 
                     <img src="~/images/@hero.IconName" class="hero-image change-heroimg-on-small-only circle">
                     <img src="~/images/@hero.RoleName" class="role-img">
@@ -35,7 +36,9 @@
                 </div>
             </a>
         </div>
+        <!--HERO CARD END -->
 
+        <!--INSERT END DIV TAG FOR ROW EVERY 3rd HERO-->
         if (hero_counter == nth3rd || hero_counter >= end)
         {
             nth3rd = nth3rd + 3;

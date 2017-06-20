@@ -7166,3 +7166,30 @@ meter::-webkit-meter-optimum-value{
 .armor-meter::-webkit-meter-even-less-good-value {
     background: #FCBD49;
 }
+
+.active-hero {
+    background-color: #218ffe !important;
+}
+
+.inactive-hero{
+    -webkit-filter:grayscale(70%);
+}
+
+.active-btn{
+    background-color: #FCBD49 !important;
+}
+.Offense{
+
+}
+
+.Defense{
+
+}
+
+.Tank{
+
+}
+
+.Support{
+
+}
