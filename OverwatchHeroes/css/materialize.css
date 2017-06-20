@@ -7092,6 +7092,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     background-color: #060606;
 }
 
+.role-img-detail {
+    height: 100px !important;
+    width: 100px !important;
+}
+
 .skill-image {
     border-radius: 50%;
     box-sizing: border-box;
@@ -7109,6 +7114,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .skill-text {
     text-align:justify;
+    overflow: scroll;
 }
 
 .info-section {
@@ -7166,6 +7172,22 @@ meter::-webkit-meter-optimum-value{
 .armor-meter::-webkit-meter-even-less-good-value {
     background: #FCBD49;
 }
+
+.shield-meter {
+    background: white;
+}
+
+    .shield-meter::-webkit-meter-optimum-value {
+        background: #218ffe;
+    }
+
+    .shield-meter::-webkit-meter-suboptimal-value {
+        background: #218ffe;
+    }
+
+    .shield-meter::-webkit-meter-even-less-good-value {
+        background: #218ffe;
+    }
 
 .active-hero {
     background-color: #218ffe !important;

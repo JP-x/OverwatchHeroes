@@ -193,18 +193,17 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Hanzo", Role = "Defense",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Wall Climb", AbilityID = 0, Description = "Hanzo can scale walls by jumping at them." },
+                    new Ability() {Name = "Storm Bow", AbilityID = 1, Description = "Hanzo nocks and fires an arrow at his target." },
+                    new Ability() {Name = "Sonic Arrow", AbilityID = 2, Description = "Hanzo launches an arrow that contains a sonar tracking device. Any enemy within its detection radius is visibly marked, making them easier for Hanzo and his allies to hunt down." },
+                    new Ability() {Name = "Scatter Arrow", AbilityID = 3, Description = "Hanzo shoots a fragmenting arrow that ricochets off walls and objects and can strike multiple targets at once." },
+                    new Ability() {Name = "Dragonstrike", AbilityID = 4, Description = "Hanzo summons a Spirit Dragon which travels through the air in a line. It passes through walls in its way, devouring any enemies it encounters." }
                 },
-                Difficulty = 0,
-                Hp = 0,
+                Difficulty = 3,
+                Hp = 200,
                 Armor = 0,
                 Shield = 0,
-                Summary = ""
+                Summary = "Hanzo’s versatile arrows can reveal his enemies or fragment to strike multiple targets. He can scale walls to fire his bow from on high, or summon a titanic spirit dragon."
 
             },
             new Hero()
@@ -213,18 +212,17 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Junkrat", Role = "Defense",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Total Mayhem", AbilityID = 0, Description = "Junkrat's deranged sense of humor persists past his death. If defeated, he drops several live grenades." },
+                    new Ability() {Name = "Frag Launcher", AbilityID = 1, Description = "Junkrat's Frag Launcher lobs grenades a significant distance. They bounce to reach their destination, and blow up when they strike an enemy." },
+                    new Ability() {Name = "Concussion Mine", AbilityID = 2, Description = "After placing one of his homemade Concussion Mines, Junkrat can trigger it to damage enemies and send them flying... or propel himself through the air." },
+                    new Ability() {Name = "Steel Trap", AbilityID = 3, Description = "Junkrat tosses out a giant, metal-toothed trap. Should an enemy wander too close to the trap, it clamps on, injuring and immobilizing them." },
+                    new Ability() {Name = "RIP-Tire", AbilityID = 4, Description = "Junkrat revs up a motorized tire bomb and sends it rolling across the battlefield, climbing over walls and obstacles. He can remotely detonate the RIP-Tire to deal serious damage to enemies caught in the blast, or just wait for it to explode on its own." }
                 },
-                Difficulty = 0,
-                Hp = 0,
+                Difficulty = 2,
+                Hp = 200,
                 Armor = 0,
                 Shield = 0,
-                Summary = ""
+                Summary = "Junkrat’s area-denying armaments include a Frag Launcher that lobs bouncing grenades, Concussion Mines that send enemies flying, and Steel Traps that stop foes dead in their tracks."
 
             },
             new Hero()
@@ -233,18 +231,17 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Mei", Role = "Defense",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Endothermic Blaster", AbilityID = 0, Description = "Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place. Mei can also use her blaster to shoot icicle-like projectiles at medium range." },
+                    new Ability() {Name = "Icicle", AbilityID = 1, Description = "Mei can also shoot icicles from her blaster." },
+                    new Ability() {Name = "Cryo-Freeze", AbilityID = 2, Description = "Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities." },
+                    new Ability() {Name = "Ice Wall", AbilityID = 3, Description = "Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks." },
+                    new Ability() {Name = "Blizzard", AbilityID = 4, Description = "Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid." }
                 },
-                Difficulty = 0,
-                Hp = 0,
+                Difficulty = 3,
+                Hp = 250,
                 Armor = 0,
                 Shield = 0,
-                Summary = ""
+                Summary = "Mei’s weather-altering devices slow opponents and protect locations. Her Endothermic Blaster unleashes damaging icicles and frost streams, and she can Cryo-Freeze herself to guard against counterattacks, or obstruct the opposing team's movements with an Ice Wall."
 
             },
             new Hero()
@@ -253,18 +250,19 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Torbjorn", Role = "Defense",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Scrap Collector", AbilityID = 0, Description = "Collect scrap to gain resources." },
+                    new Ability() {Name = "Rivet Gun", AbilityID = 1, Description = "Torbjörn fires rivets at long range." },
+                    new Ability() {Name = "Rivet Gun (Alternate Fire)", AbilityID = 2, Description = "Tobjorn ejects molten metal from his gun in a short, close-range burst." },
+                    new Ability() {Name = "Forge Hammer", AbilityID = 3, Description = "Torbjörn uses his multipurpose hammer to build, upgrade and repair turrets. In a pinch, it can also be swung as a weapon." },
+                    new Ability() {Name = "Build Turret", AbilityID = 4, Description = "Torbjörn constructs an enemy-tracking autocannon. He can use his Forge Hammer to repair or upgrade it, increasing its health and adding a second cannon barrel and a rocket launcher." },
+                    new Ability() {Name = "Armor Pack", AbilityID = 5, Description = "Torbjörn deploys an armor upgrade; either he or his allies can pick it up to absorb some damage." },
+                    new Ability() {Name = "Molten Core", AbilityID = 6, Description = "After overheating his personal forge, Torbjörn gains a significant amount of armor and scrap. He also attacks (and builds and repairs turrets) far faster than normal." }
                 },
-                Difficulty = 0,
-                Hp = 0,
+                Difficulty = 2,
+                Hp = 200,
                 Armor = 0,
                 Shield = 0,
-                Summary = ""
+                Summary = "Torbjörn’s extensive arsenal includes a rivet gun and hammer, as well as a personal forge that he can use to build upgradeable turrets and dole out protective armor packs."
 
             },
             new Hero()
@@ -273,10 +271,10 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Widowmaker", Role = "Defense",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "WIDOW’S KISS", AbilityID = 0, Description = "Widowmaker’s versatile sniper rifle is ideal for scope-aimed shots at distant targets. Should targets close to medium range, the rifle can also be fired in fully-automatic mode." },
-                    new Ability() {Name = "GRAPPLING HOOK", AbilityID = 2 , Description = "Widowmaker launches a grappling hook towards the location she’s aiming at – when the hook connects with a scalable surface, she’s quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets."},
-                    new Ability() {Name = "VENOM MINE", AbilityID = 3 , Description = "Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mine’s motion trigger, it explodes, delivering poison gas to any enemies in the vicinity."},
-                    new Ability() {Name = "INFRA-SIGHT", AbilityID = 4 , Description = "Widowmaker’s recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies."},
+                    new Ability() {Name = "Widow's Kiss", AbilityID = 0, Description = "Widowmaker’s versatile sniper rifle is ideal for scope-aimed shots at distant targets. Should targets close to medium range, the rifle can also be fired in fully-automatic mode." },
+                    new Ability() {Name = "Grappling Hook", AbilityID = 2 , Description = "Widowmaker launches a grappling hook towards the location she’s aiming at – when the hook connects with a scalable surface, she’s quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets."},
+                    new Ability() {Name = "Venom Mine", AbilityID = 3 , Description = "Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mine’s motion trigger, it explodes, delivering poison gas to any enemies in the vicinity."},
+                    new Ability() {Name = "Infra-Sight", AbilityID = 4 , Description = "Widowmaker’s recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies."},
                 },
                 Difficulty = 2,
                 Hp = 200,
@@ -310,19 +308,17 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Orisa", Role = "Tank",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Fusion Driver", AbilityID = 0, Description = "Orisa’s automatic projectile cannon delivers sustained damage, but slows her movement while she fires it." },
+                    new Ability() {Name = "Halt!", AbilityID = 1, Description = "Orisa temporarily reduces damage she takes, and cannot be affected by action-impairing effects." },
+                    new Ability() {Name = "Fortify", AbilityID = 2, Description = "Orisa launches a graviton charge which she can detonate, slowing nearby enemies and pulling them towards the explosion." },
+                    new Ability() {Name = "Protective Barrier", AbilityID = 3, Description = "Orisa throws out a stationary barrier that can protect her and her allies from enemy fire." },
+                    new Ability() {Name = "Supercharger", AbilityID = 4, Description = "Orisa deploys a device to increase damage inflicted by allies within her line of sight." }
                 },
-                Difficulty = 0,
-                Hp = 0,
-                Armor = 0,
+                Difficulty = 2,
+                Hp = 200,
+                Armor = 200,
                 Shield = 0,
-                Summary = ""
-
+                Summary = "Orisa serves as the central anchor of her team, and defends her teammates from the frontline with a protective barrier. She can attack from long range, fortify her own defenses, launch graviton charges to slow and move enemies, and deploy a Supercharger to boost the damage output of multiple allies at once."
             },
             new Hero()
             {
@@ -330,18 +326,17 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Reinhardt", Role = "Tank",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Rocket Hammer", AbilityID = 0, Description = "Reinhardt’s Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing." },
+                    new Ability() {Name = "Barrier Field", AbilityID = 1, Description = "Reinhardt projects a broad, forward-facing energy barrier, which can absorb substantial damage before it is destroyed. Though Reinhardt can protect himself and his companions behind the barrier, he cannot attack while sustaining it." },
+                    new Ability() {Name = "Charge", AbilityID = 2, Description = "Reinhardt charges forth in a straight line, pinning the first enemy in his path and knocking others aside. If he collides with a wall, the foe he’s carrying suffers extreme damage." },
+                    new Ability() {Name = "Fire Strike", AbilityID = 3, Description = "By whipping his Rocket Hammer forward, Reinhardt slings a flaming projectile which pierces and damages any enemies it touches." },
+                    new Ability() {Name = "Earthshatter", AbilityID = 4, Description = "Reinhardt forcefully slams his Rocket Hammer into the ground, knocking down and damaging all enemies in front of him." }
                 },
-                Difficulty = 0,
-                Hp = 0,
-                Armor = 0,
+                Difficulty = 1,
+                Hp = 300,
+                Armor = 200,
                 Shield = 0,
-                Summary = ""
+                Summary = "Clad in powered armor and swinging his hammer, Reinhardt leads a rocket-propelled charge across the battleground and defends his squadmates with a massive energy barrier."
 
             },
             new Hero()
@@ -350,18 +345,17 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Roadhog", Role = "Tank",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Scrap Gun", AbilityID = 0, Description = "Roadhog's Scrap Gun fires short-range blasts of shrapnel with a wide spread. " },
+                    new Ability() {Name = "Scrap Gun (Alternate Fire)", AbilityID = 1, Description = "Alternatively, it can launch a shrapnel ball that detonates farther away, scattering metal fragments from the point of impact." },
+                    new Ability() {Name = "Take a Breather", AbilityID = 2, Description = "Roadhog restores a chunk of his health over a brief period of time." },
+                    new Ability() {Name = "Chain Hook", AbilityID = 3, Description = "Roadhog hurls his chain at a target; if it catches, he yanks them into close range." },
+                    new Ability() {Name = "Whole Hog", AbilityID = 4, Description = "After cramming a top-loader onto his Scrap Gun, Roadhog pours in ammo. For a short time, he can crank out a stream of shrapnel that knocks back enemies." }
                 },
-                Difficulty = 0,
-                Hp = 0,
+                Difficulty = 1,
+                Hp = 600,
                 Armor = 0,
                 Shield = 0,
-                Summary = ""
+                Summary = "Roadhog uses his signature Chain Hook to pull his enemies close before shredding them with blasts from his Scrap Gun. He’s hardy enough to withstand tremendous damage, and can recover his health with a short breather."
 
             },
             new Hero()
@@ -370,18 +364,16 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Winston", Role = "Tank",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Tesla Cannon", AbilityID = 0, Description = "Winston’s weapon fires a short-range electric barrage for as long as he holds down the trigger." },
+                    new Ability() {Name = "Jump Pack", AbilityID = 1, Description = "Assisted by his energy pack, Winston lunges through the air, dealing significant damage and staggering nearby enemies when he lands." },
+                    new Ability() {Name = "Barrier Projector", AbilityID = 2, Description = "Winston’s barrier projector extends a bubble-shaped field that absorbs damage until it's destroyed. Allies protected by the barrier can return fire from within it." },
+                    new Ability() {Name = "Primal Rage", AbilityID = 3, Description = "Winston embraces his animal nature, significantly boosting his health and making him very difficult to kill, strengthening his melee attack, and allowing him to use his Jump Pack ability more frequently. While raging, Winston can only make melee and Jump Pack attacks." }
                 },
-                Difficulty = 0,
-                Hp = 0,
-                Armor = 0,
+                Difficulty = 2,
+                Hp = 400,
+                Armor = 100,
                 Shield = 0,
-                Summary = ""
+                Summary = "Winston wields impressive inventions—a jump pack, electricity-blasting Tesla Cannon, portable shield projector and more—with literal gorilla strength."
 
             },
             new Hero()
@@ -390,18 +382,18 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Zarya", Role = "Tank",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Energy", AbilityID = 0, Description = "Damage blocked increases Particle Cannon damage." },
+                    new Ability() {Name = "Particle Cannon", AbilityID = 1, Description = "Zarya’s mighty Particle Cannon unleashes a short-range beam of destructive energy. " },
+                    new Ability() {Name = "Particle Cannon (Alternate Fire)", AbilityID = 2, Description = "Alternatively, Zarya can lob an explosive charge to strike multiple opponents." },
+                    new Ability() {Name = "Particle Barrier", AbilityID = 3, Description = "The Particle Cannon can emit a personal barrier that shields Zarya against incoming attacks, redirecting their energy to enhance her weapon’s damage and the width of its beam." },
+                    new Ability() {Name = "Projected Barrier", AbilityID = 4, Description = "Zarya surrounds one of her teammates with an energy barrier that simultaneously absorbs fire and boosts the power of her Particle Cannon." },
+                    new Ability() {Name = "Graviton Surge", AbilityID = 5, Description = "Zarya launches a gravity bomb that draws in enemy combatants and deals damage while they’re trapped." }
                 },
-                Difficulty = 0,
-                Hp = 0,
+                Difficulty = 3,
+                Hp = 200,
                 Armor = 0,
-                Shield = 0,
-                Summary = ""
+                Shield = 200,
+                Summary = "Deploying powerful personal barriers that convert incoming damage into energy for her massive Particle Cannon, Zarya is an invaluable asset on the front lines of any battle."
 
             },
             new Hero()
@@ -427,18 +419,18 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Lucio", Role = "Support",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Wall Ride", AbilityID = 0, Description = "Lucio can ride walls by jumping alongside it." },
+                    new Ability() {Name = "Sonic Amplifier", AbilityID = 1, Description = "Lúcio can hit his enemies with sonic projectiles." },
+                    new Ability() {Name = "Soundwave", AbilityID = 2, Description = "Lúcio can knock enemies back with a blast of sound." },
+                    new Ability() {Name = "Crossfade", AbilityID = 3, Description = "Lúcio continuously energizes himself—and nearby teammates—with music. He can switch between two songs: one amplifies movement speed, while the other regenerates health."},
+                    new Ability() {Name = "Amp It Up", AbilityID = 4, Description = "Lúcio increases the volume on his speakers, boosting the effects of his songs." },
+                    new Ability() {Name = "Sound Barrier", AbilityID = 5, Description = "Protective waves radiate out from Lúcio’s Sonic Amplifier, briefly providing him and nearby allies with personal shields." }
                 },
-                Difficulty = 0,
-                Hp = 0,
+                Difficulty = 2,
+                Hp = 200,
                 Armor = 0,
                 Shield = 0,
-                Summary = ""
+                Summary = "On the battlefield, Lúcio’s cutting-edge Sonic Amplifier buffets enemies with projectiles and knocks foes back with blasts of sound. His songs can both heal his team or boost their movement speed, and he can switch between tracks on the fly."
 
             },
             new Hero()
@@ -447,18 +439,17 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Mercy", Role = "Support",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Angelic Descent", AbilityID = 0, Description = "Propelled by her Valkyrie suit, Mercy slows the speed of her descent from great heights." },
+                    new Ability() {Name = "Caduceus Staff", AbilityID = 1, Description = "Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that ally’s health or increase the amount of damage they deal." },
+                    new Ability() {Name = "Caduceus Blaster", AbilityID = 2, Description = "Mercy shoots a round from her sidearm. It's best reserved for emergency personal defense." },
+                    new Ability() {Name = "Guardian Angel", AbilityID = 3, Description = "Mercy flies towards a targeted ally, allowing her to reach them quickly and provide assistance in crucial moments." },
+                    new Ability() {Name = "Resurrect", AbilityID = 4, Description = "Mercy radiates restorative power, bringing nearby dead allies back into the fight with full health. She is temporarily invulnerable while using this ability." }
                 },
-                Difficulty = 0,
-                Hp = 0,
+                Difficulty = 1,
+                Hp = 200,
                 Armor = 0,
                 Shield = 0,
-                Summary = ""
+                Summary = "Mercy’s Valkyrie Suit helps keep her close to teammates like a guardian angel; healing, resurrecting or strengthening them with the beams emanating from her Caduceus Staff."
 
             },
             new Hero()
@@ -467,18 +458,18 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Symmetra", Role = "Support",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Photon Projector", AbilityID = 0, Description = "Symmetra’s weapon emits a short-range beam that homes in on a nearby enemy, dealing continuous damage that increases the longer it is connected. " },
+                    new Ability() {Name = "Energy Ball", AbilityID = 1, Description = "The projector can also release a charged energy ball that deals high damage." },
+                    new Ability() {Name = "Sentry Turret", AbilityID = 2, Description = "Symmetra sets up a small turret that automatically fires speed-reducing blasts at the nearest enemy within range. Several turrets can be built on the battlefield at once." },
+                    new Ability() {Name = "Photon Barrier", AbilityID = 3, Description = "Symmetra projects a moving barrier that absorbs damage as it travels forward." },
+                    new Ability() {Name = "Teleporter", AbilityID = 4, Description = "Symmetra places a teleporter exit pad at her current location, and connects it to a teleporter entry pad at her team’s starting point. Allies can travel through the entry pad to the exit pad instantly, enabling them to return to the fight swiftly after being defeated." },
+                    new Ability() {Name = "Shield Generator", AbilityID = 5, Description = "Symmetra deploys a wide-radius generator that provides increased shielding to her entire team." }
                 },
-                Difficulty = 0,
-                Hp = 0,
+                Difficulty = 2,
+                Hp = 100,
                 Armor = 0,
-                Shield = 0,
-                Summary = ""
+                Shield = 100,
+                Summary = "Symmetra utilizes her light-bending Photon Projector to dispatch adversaries, shield her associates, construct teleportation pads and deploy particle-blasting Sentry Turrets."
 
             },
             new Hero()
@@ -487,18 +478,17 @@ private static Hero[] HeroRepo = new Hero[]
                 Name = "Zenyatta", Role = "Support",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "", AbilityID = 0, Description = "" },
-                    new Ability() {Name = "", AbilityID = 1, Description = "" },
-                    new Ability() {Name = "", AbilityID = 2, Description = "" },
-                    new Ability() {Name = "", AbilityID = 3, Description = "" },
-                    new Ability() {Name = "", AbilityID = 4, Description = "" },
-                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                    new Ability() {Name = "Orb of Destruction", AbilityID = 0, Description = "Zenyatta projects his destructive energy orbs individually. " },
+                    new Ability() {Name = "Orb Volley", AbilityID = 1, Description = "Zenyatta projects his destructive energy orbs in a rapid-fire volley after a few seconds spent gathering power." },
+                    new Ability() {Name = "Orb of Harmony", AbilityID = 2, Description = "Zenyatta casts an orb over the shoulder of a targeted ally. So long as Zenyatta maintains line of sight, the orb slowly restores health to his ally. Only one ally can receive the orb's benefit at a time." },
+                    new Ability() {Name = "Orb of Discord", AbilityID = 3, Description = "Attaching the orb of discord to an opponent amplifies the amount of damage they receive for as long as Zenyatta maintains line of sight. Only one opponent can suffer the orb's effects at a time." },
+                    new Ability() {Name = "Transcendence", AbilityID = 4, Description = "Zenyatta enters a state of heightened existence for a short period of time. While transcendent, Zenyatta cannot use abilities or weapons, but is immune to damage and automatically restores his health and that of nearby allies." }
                 },
-                Difficulty = 0,
-                Hp = 0,
+                Difficulty = 3,
+                Hp = 50,
                 Armor = 0,
-                Shield = 0,
-                Summary = ""
+                Shield = 150,
+                Summary = "Zenyatta calls upon orbs of harmony and discord to heal his teammates and weaken his opponents, all while pursuing a transcendent state of immunity to damage."
 
             }
         };
