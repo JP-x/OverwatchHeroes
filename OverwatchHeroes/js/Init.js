@@ -26,6 +26,7 @@ function FilterHeroes(role_filter) {
     if (clicked_button.classList.contains('active-btn'))
     {
         ResetHeroFilters(role_filter);
+        ResetButtonFilters();
         return;
     }
     else

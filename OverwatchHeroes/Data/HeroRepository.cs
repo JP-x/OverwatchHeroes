@@ -190,6 +190,103 @@ private static Hero[] HeroRepo = new Hero[]
             new Hero()
             {
                 // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Hanzo", Role = "Defense",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Junkrat", Role = "Defense",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Mei", Role = "Defense",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Torbjorn", Role = "Defense",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Widowmaker", Role = "Defense",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "WIDOW’S KISS", AbilityID = 0, Description = "Widowmaker’s versatile sniper rifle is ideal for scope-aimed shots at distant targets. Should targets close to medium range, the rifle can also be fired in fully-automatic mode." },
+                    new Ability() {Name = "GRAPPLING HOOK", AbilityID = 2 , Description = "Widowmaker launches a grappling hook towards the location she’s aiming at – when the hook connects with a scalable surface, she’s quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets."},
+                    new Ability() {Name = "VENOM MINE", AbilityID = 3 , Description = "Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mine’s motion trigger, it explodes, delivering poison gas to any enemies in the vicinity."},
+                    new Ability() {Name = "INFRA-SIGHT", AbilityID = 4 , Description = "Widowmaker’s recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies."},
+                },
+                Difficulty = 2,
+                Hp = 200,
+                Armor = 0,
+                Shield=0,
+                Summary = "Widowmaker equips herself with whatever it takes to eliminate her targets, including mines that dispense poisonous gas, a visor that grants her squad infra-sight, and a powerful sniper rifle that can fire in fully-automatic mode."
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
                 Name = "Dva", Role = "Tank",
                 Skills = new Ability[]
                 {
@@ -205,6 +302,106 @@ private static Hero[] HeroRepo = new Hero[]
                 Armor = 200,
                 Shield = 0,
                 Summary = "D.Va’s mech is nimble and powerful—its twin Fusion Cannons blast away with autofire at short range, and she can use its Boosters to barrel over enemies and obstacles, or deflect attacks with her projectile-dismantling Defense Matrix."
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Orisa", Role = "Tank",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Reinhardt", Role = "Tank",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Roadhog", Role = "Tank",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Winston", Role = "Tank",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Zarya", Role = "Tank",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
 
             },
             new Hero()
@@ -227,25 +424,112 @@ private static Hero[] HeroRepo = new Hero[]
             new Hero()
             {
                 // new Ability() {Name = "", AbilityID = , Description = ""}
-                Name = "Widowmaker", Role = "Defense",
+                Name = "Lucio", Role = "Support",
                 Skills = new Ability[]
                 {
-                    new Ability() {Name = "WIDOW’S KISS", AbilityID = 0, Description = "Widowmaker’s versatile sniper rifle is ideal for scope-aimed shots at distant targets. Should targets close to medium range, the rifle can also be fired in fully-automatic mode." },
-                    new Ability() {Name = "GRAPPLING HOOK", AbilityID = 2 , Description = "Widowmaker launches a grappling hook towards the location she’s aiming at – when the hook connects with a scalable surface, she’s quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets."},
-                    new Ability() {Name = "VENOM MINE", AbilityID = 3 , Description = "Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mine’s motion trigger, it explodes, delivering poison gas to any enemies in the vicinity."},
-                    new Ability() {Name = "INFRA-SIGHT", AbilityID = 4 , Description = "Widowmaker’s recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies."},
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
                 },
-                Difficulty = 2,
-                Hp = 200,
+                Difficulty = 0,
+                Hp = 0,
                 Armor = 0,
-                Shield=0,
-                Summary = "Widowmaker equips herself with whatever it takes to eliminate her targets, including mines that dispense poisonous gas, a visor that grants her squad infra-sight, and a powerful sniper rifle that can fire in fully-automatic mode."
+                Shield = 0,
+                Summary = ""
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Mercy", Role = "Support",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Symmetra", Role = "Support",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
+
+            },
+            new Hero()
+            {
+                // new Ability() {Name = "", AbilityID = , Description = ""}
+                Name = "Zenyatta", Role = "Support",
+                Skills = new Ability[]
+                {
+                    new Ability() {Name = "", AbilityID = 0, Description = "" },
+                    new Ability() {Name = "", AbilityID = 1, Description = "" },
+                    new Ability() {Name = "", AbilityID = 2, Description = "" },
+                    new Ability() {Name = "", AbilityID = 3, Description = "" },
+                    new Ability() {Name = "", AbilityID = 4, Description = "" },
+                    new Ability() {Name = "", AbilityID = 5, Description = "" }
+                },
+                Difficulty = 0,
+                Hp = 0,
+                Armor = 0,
+                Shield = 0,
+                Summary = ""
+
             }
         };
 
         public Hero[] GetHeroes()
         {
             return HeroRepo;
+        }
+
+        public Hero getHero(string name)
+        {
+            Hero HeroToReturn = null;
+            foreach (var hero in HeroRepo)
+            {
+                if (name == hero.Name)
+                {
+                    //match found break out of loop
+                    HeroToReturn = hero;
+                    break;
+                }
+                else
+                {
+                    //prevent invalid heroes from being passed in
+                    //default to genji
+                    if (hero.Name == "Genji")
+                    {
+                        HeroToReturn = hero;
+                    }
+                }
+            }
+            return HeroToReturn;
         }
     }
 }

@@ -27,27 +27,8 @@ namespace OverwatchHeroes.Controllers
         //pass in a hero to display all relevant information
         public ActionResult Details(string name)
         {
-            var Heroes = HeroesRepo.GetHeroes();
-            Hero herotodisplay = null;
-            foreach(var hero in Heroes)
-            {
-                if(name == hero.Name)
-                {
-                    //match found break out of loop
-                    herotodisplay = hero;
-                    break;
-                }
-                else
-                {
-                    //prevent invalid heroes from being passed in
-                    //default to genji
-                    if(hero.Name == "Genji")
-                    {
-                        herotodisplay = hero;
-                    }
-                }
-            }
-            
+            var herotodisplay = HeroesRepo.getHero(name);
+
             return View(herotodisplay);
         }
     }
