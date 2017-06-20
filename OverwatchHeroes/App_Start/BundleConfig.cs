@@ -27,6 +27,9 @@ namespace OverwatchHeroes
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
 
+            bundles.Add(new StyleBundle("~/css").Include(
+                "~/css/materialize.css"));
+
             bundles.Add(new StyleBundle("~/css/fonts/overwatch")
             .IncludeDirectory("~/css/fonts/overwatch", "*.woff"));
 
