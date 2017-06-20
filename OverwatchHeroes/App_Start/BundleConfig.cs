@@ -26,6 +26,17 @@ namespace OverwatchHeroes
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/css/fonts/overwatch")
+            .IncludeDirectory("~/css/fonts/overwatch", "*.woff"));
+
+            bundles.Add(new StyleBundle("~/css/fonts/roboto")
+            .IncludeDirectory("~/css/fonts/roboto", "*.woff"));
+
+            bundles.Add(new StyleBundle("~/Content/css/fonts/roboto")
+            .IncludeDirectory("~/css/fonts/roboto", "*.woff2"));
+
+
         }
     }
 }
