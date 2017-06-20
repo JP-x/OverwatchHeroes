@@ -7194,7 +7194,7 @@ meter::-webkit-meter-optimum-value{
 }
 
 .inactive-hero{
-    -webkit-filter:grayscale(70%);
+    -webkit-filter:grayscale(100%);
 }
 
 .active-btn{
