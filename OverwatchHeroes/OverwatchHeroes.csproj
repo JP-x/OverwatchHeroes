@@ -154,7 +154,9 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="css\materialize.css" />
+    <Content Include="css\materialize.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="css\materialize.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="css\fonts\glyphicons-halflings-regular.svg" />
@@ -350,18 +352,42 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="css\fonts\roboto\Roboto-Bold.woff" />
-    <Content Include="css\fonts\roboto\Roboto-Bold.woff2" />
-    <Content Include="css\fonts\roboto\Roboto-Light.woff" />
-    <Content Include="css\fonts\roboto\Roboto-Light.woff2" />
-    <Content Include="css\fonts\roboto\Roboto-Medium.woff" />
-    <Content Include="css\fonts\roboto\Roboto-Medium.woff2" />
-    <Content Include="css\fonts\roboto\Roboto-Regular.woff" />
-    <Content Include="css\fonts\roboto\Roboto-Regular.woff2" />
-    <Content Include="css\fonts\roboto\Roboto-Thin.woff" />
-    <Content Include="css\fonts\roboto\Roboto-Thin.woff2" />
-    <Content Include="css\fonts\overwatch\big_noodle_titling.woff" />
-    <Content Include="css\fonts\overwatch\big_noodle_titling_oblique.woff" />
+    <Content Include="css\fonts\roboto\Roboto-Bold.woff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\fonts\roboto\Roboto-Bold.woff2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\fonts\roboto\Roboto-Light.woff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\fonts\roboto\Roboto-Light.woff2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\fonts\roboto\Roboto-Medium.woff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\fonts\roboto\Roboto-Medium.woff2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\fonts\roboto\Roboto-Regular.woff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\fonts\roboto\Roboto-Regular.woff2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\fonts\roboto\Roboto-Thin.woff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\fonts\roboto\Roboto-Thin.woff2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\fonts\overwatch\big_noodle_titling.woff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\fonts\overwatch\big_noodle_titling_oblique.woff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Properties\PublishProfiles\OverwatchHeroes - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
